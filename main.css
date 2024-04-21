@@ -1,0 +1,50 @@
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px; 
+}
+
+.rainime {
+    font-size: 35px;
+    margin-top: 10; 
+}
+
+.anime {
+    text-align:center; 
+}
+
+.onepiece {
+    width: 213px;
+    height: auto; 
+}
+
+.caveira {
+    width: 35px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.central {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.esquerda {
+    flex: 5;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.direita {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+footer {
+    background-color:rgba(82,75,75,1);
+    color: white;
+}

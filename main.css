@@ -3,11 +3,6 @@ h1 {
     margin-bottom: 10px; 
 }
 
-.rainime {
-    font-size: 35px;
-    margin-top: 10; 
-}
-
 .anime {
     text-align:center; 
 }
@@ -17,10 +12,19 @@ h1 {
     height: auto; 
 }
 
+.direita-encima {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
 .caveira {
     width: 35px;
     height: auto;
-    margin-left: 10px;
+    margin-right: 10px; /* Adiciona margem à direita para separar do título */
+}
+
+.rainime {
+    font-size: 35px;
 }
 
 .central {

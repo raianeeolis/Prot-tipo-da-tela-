@@ -45,6 +45,31 @@ h1 {
     color: black;
 }
 footer {
-    background-color:rgba(82,75,75,1);
+    background-color: rgba(82, 75, 75, 1);
     color: white;
+    padding: 20px 0;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    flex-direction: row; 
+    margin: 0 auto;
+    padding-left: 200px;
+}
+
+.Navegação, .Contate-nos, .Conta {
+    flex: 1; 
+    text-align: justify; 
+}
+
+.container-footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.container-footer ul li {
+    margin-bottom: 10px; 
+    list-style-type: disc;
 }

@@ -14,13 +14,13 @@ h1 {
 
 .direita-encima {
     display: flex;
-    align-items: center; /* Alinha os itens verticalmente */
+    align-items: center;
 }
 
 .caveira {
     width: 35px;
     height: auto;
-    margin-right: 10px; /* Adiciona margem à direita para separar do título */
+    margin-right: 10px; 
 }
 
 .rainime {
